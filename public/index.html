@@ -49,13 +49,18 @@
 
     <script>
         const images = document.querySelectorAll('img');
-        let i = 0;
-        setInterval(() => {
+        let lastImageIndex = 0;
+
+        function displayRandomImage() {
             const randomIndex = Math.floor(Math.random() * images.length);
-            images[i].style.height = '0';
+            images[lastImageIndex].style.height = '0';
             images[randomIndex].style.height = 'auto';
-            i = randomIndex;
-        }, 10 * 1000);
+            lastImageIndex = randomIndex;
+            console.log('displaying image', randomIndex);
+        }
+
+        displayRandomImage();
+        setInterval(() => { displayRandomImage(); }, 10 * 1000);
     </script>
 </body>
 
