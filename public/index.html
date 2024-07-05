@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chinmay Chandak</title>
 
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="grids.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="row">
+        <div class="col s12 m10 l8 center">
+            <h1>
+                hi👋🏻<br>
+                i am chinmay<br>
+            </h1>
+            <h3>
+                software engineer, occasional trader,<br>
+                tinkering with web3, building <a target="_blank" href="https://x.com/BlockendLabs">blockend</a>,<br>
+                also hobbyists game dev 🎮👾
+            </h3>
 
-    <h1 class="text-center">Hello</h1>
+            <img src="https://media1.tenor.com/m/flX5arjPeDcAAAAC/sora-cooking.gif">
+            <img style="height: 0;" src="https://media1.tenor.com/m/gYpZS5deEmkAAAAC/itachi-naruto.gif">
+            <img style="height: 0;" src="https://media1.tenor.com/m/Hqv350rzvBQAAAAC/anime-food.gif">
+            <img style="height: 0;" src="https://media1.tenor.com/m/Z-09NBXH5wcAAAAC/anime-food.gif">
+            <img style="height: 0;" src="https://media1.tenor.com/m/ZtccWz9BLJwAAAAd/anime-anime-food.gif">
+            <img style="height: 0;" src="https://media1.tenor.com/m/yZCowKJy4UoAAAAd/anime-anime-gif.gif">
 
+            <h3>
+                the website is being cooked right now<br>
+                meanwhile, you can reach me at my socials<br><br>
+                i try getting @CCAtAlvis almost everywhere<br>
+                <a target="_blank" href="https://github.com/CCAtAlvis">github</a> | <a target="_blank"
+                    href="https://x.com/CCAtAlvis">twitter (x 🤷🏻‍♂️)</a><br><br>
+                where not,<br>
+                <a target="_blank" href="https://www.linkedin.com/in/chinmaychandak/">linkedin</a> | <a target="_blank"
+                    href="https://www.instagram.com/chinmaychandak/">instagram</a> | <a target="_blank"
+                    href="https://www.facebook.com/chinmay.chandak">facebook (still use it?!)</a>
+            </h3>
+        </div>
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('img');
+        let i = 0;
+        setInterval(() => {
+            const randomIndex = Math.floor(Math.random() * images.length);
+            images[i].style.height = '0';
+            images[randomIndex].style.height = 'auto';
+            i = randomIndex;
+        }, 10 * 1000);
+    </script>
 </body>
+
 </html>
