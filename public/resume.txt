@@ -1,0 +1,98 @@
+Chinmay Chandak
+Results-driven Full-Stack and Web3 Developer with over 4 years of
+experience specializing in building scalable, high-performance
+backends and networks, with a strong focus on optimization and
+eﬃciency.
+
+WORK EXPERIENCE
+Blockend & Zelta – Backend and Web3 (Dec 2022 – Present)
+Part of the founding team of Blockend, a web3 native intent solver
+protocol and action model.
+Engineered the backend architecture for Blockend’s intent-solving
+protocol, supporting high-throughput cross-chain transactions with
+fault-tolerant failover paths.
+Led backend engineering efforts, mentoring a team, defining technical
+strategy, and aligning backend performance with product vision.
+Conceptualized an intent auction and execution engine that simplified
+multi-chain swaps into one-click user actions, reducing transaction
+complexity by 60%
+Worked on designing and building Zelta, a global centralized crypto
+currency exchange.
+Built an automated testing framework for testing end to end user stories,
+helping in better integration for ci/cd pipeline and completely eliminated
+manual testing efforts.
+
+Swiggy – SDET (April 2022 – Nov 2022)
+Responsible for finding innovative ways to optimize the test strategy.
+Worked on new capabilities and features for the automation framework.
+Managing and maintaining test coverage through periodic reports to all
+stakeholders.
+
+TCS – Systems Engineer (Nov 2020 – April 2022)
+Worked as Java developer in a dynamic team for a US based online travel
+agency.
+Developed projects by incorporating business requirements into
+cost-effective, secure, reliable and maintainable solutions.
+Built scalable and durable microservices handling millions of events per
+day.
+
+OTHER PROJECTS
+backgommon – Open-source Go library for backtesting and simulating
+trading strategies
+Designed for speed and flexibility, suitable for both single and multi-asset
+portfolio based testing
+Includes advanced features like Monte Carlo simulations and risk
+analysis
+Coupled with clear and simple charting feature made in pure JS for
+detailed trade analysis
+
+
+Grids-css – A Minimalist, unopinionated boilerplate for a responsive
+12-column grid system
+●
+Under 100 lines of code, offering flexible, percentage-based layouts
+●
+Simple, clear class naming inspired by Materialize for easy integration
+●
+Easily customizable for different screen sizes and responsive design
+
+
+SKILLS
+Languages & DBs:
+Java, JS & TS, Golang, Solidity,
+MongoDB, PostgreSQL, MySQL,
+Redis
+
+Tools & Frameworks:
+Kafka, Nginx, Kong, ProtoBuf,
+Ethereum (EVM), Express.js,
+Spring & Spring Boot, Fiber,
+Solid.js, React, UIKit, Bootstrap,
+ElectronJS, Unity, Unreal
+
+Platforms:
+Git & various git platforms, JIRA,
+Vercel, Digital Ocean, Firebase,
+AWS, docker
+
+
+OTHER ACTIVITIES
+FOSSGST – FOSS community at
+SIES GST
+Created a community of FOSS
+enthusiasts and organized
+workshops and community
+building programs.
+
+SIES GST’s Developer
+Program (GDP)
+Conducted weekly training
+workshops for college
+students in the domain of web
+and game development.
+
+
+INTERESTS
+Game development and gaming,
+web and decentralized networks,
+traveling, music, low level tech
