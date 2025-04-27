@@ -2,7 +2,6 @@ import React, { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Loading from './components/common/Loading'
-import ThemeSwitcher from './components/common/ThemeSwitcher'
 
 const Home = lazy(() => import('./pages/Home'))
 const Projects = lazy(() => import('./pages/Projects'))
