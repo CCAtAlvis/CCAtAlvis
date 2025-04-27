@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import AnimatedBackground from '../common/AnimatedBackground'
 
 const HeroSection = () => {
   const scrollToContent = () => {
@@ -10,8 +11,10 @@ const HeroSection = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center bg-gradient-to-br from-primary-50 via-light to-secondary-50">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
+      <AnimatedBackground />
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +55,7 @@ const HeroSection = () => {
               <img
                 src="/profile.jpg"
                 alt="Profile"
-                className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-lg shadow-xl"
+                className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-lg shadow-xl object-[center_bottom]"
               />
             </div>
           </motion.div>

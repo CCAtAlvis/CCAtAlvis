@@ -191,7 +191,7 @@ export const getCurrentPalette = () => {
   if (typeof window === 'undefined') {
     return getDefaultPalette()
   }
-  const savedPalette = localStorage.getItem('colorPalette') || 'yellow'
+  const savedPalette = localStorage.getItem('colorPalette') || 'purple'
   return colorPalettes[savedPalette]
 }
 
