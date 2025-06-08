@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmay Chandak - Resume</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2c5282;
+            --accent-color: #4299e1;
+            --text-color: #2d3748;
+            --light-text: #4a5568;
+            --bg-color: #ffffff;
+            --section-bg: #f7fafc;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .resume-container {
+            overflow: hidden;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .name {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #e2e8f0;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            font-size: 0.95rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact-item a:hover {
+            color: var(--accent-color);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 5px;
+        }
+
+        .skill-category {
+            margin-bottom: 15px;
+        }
+
+        .skill-heading {
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-bottom: 4px;
+        }
+
+        .skill-list {
+            color: var(--light-text);
+            line-height: 1.5;
+        }
+
+        .experience-item,
+        .project-item,
+        .education-item {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .experience-item:last-child,
+        .project-item:last-child,
+        .education-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .job-header,
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .company,
+        .project-name {
+            font-weight: 600;
+            font-size: 1.15rem;
+            color: var(--secondary-color);
+        }
+
+        .job-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+
+        .date {
+            font-style: italic;
+            color: var(--light-text);
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 6px;
+            position: relative;
+        }
+
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: var(--border-color);
+            margin: 40px 0;
+        }
+
+        .interests {
+            background-color: var(--section-bg);
+            padding: 15px 20px;
+            border-radius: 6px;
+            font-style: italic;
+            color: var(--light-text);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-container">
+        <header>
+            <div class="header-content">
+                <h1 class="name">CHINMAY CHANDAK</h1>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        Full-Stack Engineer | Web3 Developer | Systems Architect
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>🌐</span>
+                        <a href="https://cc.alvis.me/" target="_blank">cc.alvis.me</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>✉️</span>
+                        <a href="mailto:chandakchinmay@hotmail.com">chandakchinmay@hotmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>📱</span>
+                        <a href="tel:+918655759385">+91 86557 59385</a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>💼</span>
+                        <a href="https://www.linkedin.com/in/chinmaychandak"
+                            target="_blank">linkedin.com/in/chinmaychandak</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>💻</span>
+                        <a href="https://github.com/CCAtAlvis" target="_blank">github.com/CCAtAlvis</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- <section class="summary">
+                <p>Solution-driven Full-Stack Engineer with 4+ years of experience architecting high-throughput
+                    distributed systems across fintech, trading, and Web3 ecosystems. Proven track record of leading
+                    technical strategy and delivering scalable, performance-optimized products from concept to
+                    production. Expertise in microservice architecture, distributed systems, and cross-chain protocols
+                    with a passion for building next-generation financial infrastructure.</p>
+            </section> -->
+
+            <section>
+                <h2 class="section-title">TECHNICAL EXPERTISE</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <div class="skill-heading">Languages</div>
+                        <div class="skill-list">Java, Golang, TypeScript, JavaScript, Solidity, Python</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-heading">Databases</div>
+                        <div class="skill-list">PostgreSQL, MongoDB, MySQL, Redis</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-heading">Web3/DLT</div>
+                        <div class="skill-list">Ethereum (EVM), Cross-Chain Protocols, Smart Contracts, Intent-Based
+                            Execution</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-heading">Backend</div>
+                        <div class="skill-list">Spring Boot, Node.js, Express.js, Fiber, Kafka, Distributed Systems
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-heading">Frontend</div>
+                        <div class="skill-list">Solid.js, React, Tailwind CSS, Framer Motion</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-heading">Cloud & DevOps</div>
+                        <div class="skill-list">Docker, AWS, GCP, CI/CD Pipelines, Infrastructure as Code</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="company">BLOCKEND</div>
+                            <div class="job-title">Founding Backend & Web3 Engineer | Product & Technical Strategy</div>
+                        </div>
+                        <div class="date">Dec 2022 - Present</div>
+                    </div>
+                    <ul>
+                        <li>Architected and engineered cross-chain liquidity aggregation infrastructure, unifying DEXs,
+                            bridges, and intent protocols into a cohesive execution layer that removes barriers between
+                            blockchain ecosystems</li>
+                        <li>Spearheaded the technical design and implementation of Compass (Liquidity Super-Aggregator)
+                            and Pathfinder (Execution Engine), achieving 30% better execution prices than competing
+                            aggregators</li>
+                        <li>Designed LEX Protocol's architecture, creating an infrastructure-light intent-based
+                            liquidity protocol functioning across multiple virtual machine environments without smart
+                            contract dependencies</li>
+                        <li>Optimized settlement pathways across blockchains, reducing cross-chain transaction
+                            complexity by 65% and execution times by 40%</li>
+                        <li>Collaborated with integration partners to deliver custom solutions, driving ecosystem
+                            adoption and technical partnerships</li>
+                        <li>Established product development frameworks, implementing agile methodologies that reduced
+                            time-to-market by 35%</li>
+                        <li>Built comprehensive developer tooling and documentation, enabling seamless integration for
+                            partners and dramatically reducing onboarding friction</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="company">ZELTA</div>
+                            <div class="job-title">Software Engineer | Backend Development</div>
+                        </div>
+                        <div class="date">Dec 2022 - Oct 2023</div>
+                    </div>
+                    <ul>
+                        <li>Engineered high-performance centralized cryptocurrency exchange architecture, focusing on
+                            orderbook design and trade execution</li>
+                        <li>Implemented core financial services including order matching engine, staking mechanisms,
+                            lending protocols, and risk management systems for margin trading</li>
+                        <li>Integrated and optimized multiple external liquidity sources, enhancing market depth and
+                            reducing slippage by 35%</li>
+                        <li>Architected low-latency communication channels using WebSockets and Protocol Buffers,
+                            decreasing system latency by 40% and improving throughput</li>
+                        <li>Developed robust automated testing infrastructure, eliminating 90% of manual QA effort and
+                            accelerating release cycles</li>
+                        <li>Optimized data transfer protocols for time-critical systems, reducing payload sizes by 60%
+                            and improving overall system responsiveness</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="company">SWIGGY</div>
+                            <div class="job-title">Software Development Engineer in Test (SDET)</div>
+                        </div>
+                        <div class="date">Apr 2022 - Nov 2022</div>
+                    </div>
+                    <ul>
+                        <li>Led end-to-end testing strategy for Swiggy's Restaurant Platform, increasing regression test
+                            coverage by 45% and E2E test coverage by 60%</li>
+                        <li>Orchestrated testing operations for 3 critical product launches, including a major
+                            cross-organizational initiative involving 4+ teams and multiple stakeholders</li>
+                        <li>Identified and resolved 100+ bugs (15 critical, 85+ minor) through comprehensive testing
+                            methodologies, ensuring seamless user experience during new feature deployments</li>
+                        <li>Engineered automated test frameworks for web and mobile applications, reducing manual
+                            testing requirements by 70%</li>
+                        <li>Pioneered test automation initiatives for website testing, implementing CI/CD integrated
+                            test suites that cut release validation time by 50%</li>
+                        <li>Contributed to internal testing frameworks built on Java and Spring Boot, enhancing
+                            developer productivity and test reliability</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="company">TCS</div>
+                            <div class="job-title">Systems Engineer | Backend Development</div>
+                        </div>
+                        <div class="date">Nov 2020 - Apr 2022</div>
+                    </div>
+                    <ul>
+                        <li>Developed cloud-native microservices on Google Cloud Platform for the finance operations of
+                            a major US travel platform handling millions of daily transactions</li>
+                        <li>Designed and implemented Kafka-based event-driven architecture for back-office systems,
+                            improving data processing speeds by 40% while maintaining 99.8% system uptime</li>
+                        <li>Engineered reusable Kafka integration libraries and bootstrap frameworks, reducing service
+                            integration time from weeks to days</li>
+                        <li>Led knowledge transfer sessions on distributed systems and event streaming, becoming the
+                            team's subject matter expert for Kafka architecture</li>
+                        <li>Optimized data pipelines for financial transaction processing, implementing solutions that
+                            increased throughput by 35% during peak loads</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">NOTABLE PROJECTS</h2>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-name">backgommon | Open Source Go Library for Quantitative Backtesting</div>
+                    </div>
+                    <ul>
+                        <li>Engineered a high-performance Go library for multi-asset trading strategy simulation with
+                            support for complex portfolio management and market constraints</li>
+                        <li>Implemented advanced quantitative analysis tools including Monte Carlo simulations, risk
+                            profiling, and strategy optimization algorithms</li>
+                        <li>Developed real-time visualization capabilities using pure JavaScript for intuitive strategy
+                            performance analysis</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-name">Grids-css | Ultra-Light Responsive Grid System</div>
+                    </div>
+                    <ul>
+                        <li>Created a minimalist, framework-agnostic responsive CSS grid system under 100 lines of code
+                        </li>
+                        <li>Implemented support for advanced responsive behaviors with clean utility-based class naming
+                            conventions</li>
+                        <li>Optimized for integration into modern frontend frameworks including React and Solid.js</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-header">
+                        <div class="project-name">SteganoPy | Python Library for Image-Based Steganography</div>
+                    </div>
+                    <ul>
+                        <li>Developed comprehensive Python toolkit for secure data embedding within images using LSB
+                            steganography techniques</li>
+                        <li>Implemented advanced security features including password protection, multi-layer data
+                            embedding, and optional encryption</li>
+                        <li>Built flexible API and CLI tools for integration into security and digital watermarking
+                            applications</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">EDUCATION</h2>
+
+                <div class="education-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="company">University of Mumbai</div>
+                            <div class="job-title">Bachelor of Engineering in Computer Engineering</div>
+                        </div>
+                        <div class="date">2016 - 2020</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title">LEADERSHIP & COMMUNITY</h2>
+
+                <ul>
+                    <li><strong>FOSSGST, SIES GST</strong> - Founded and led open source developer community; organized
+                        workshops, hackathons, and knowledge-sharing initiatives</li>
+                    <li><strong>Developer Program (GDP), SIES GST</strong> - Conducted weekly technical sessions on web
+                        and game development, mentoring 50+ students</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="section-title">INTERESTS</h2>
+
+                <div class="interests">
+                    Distributed Systems, Real-Time Simulation, Game Development, Decentralized Finance (DeFi),
+                    Algorithmic Trading
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
