@@ -18,12 +18,12 @@ function App() {
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          {/* <Route path="/projects" element={<Projects />} />
           <Route path="/trips" element={<Trips />} />
           <Route path="/trips/:id" element={<TripDetail />} />
           <Route path="/games" element={<Games />} />
           <Route path="/diary" element={<Diary />} />
-          <Route path="/diary/:id" element={<DiaryEntry />} />
+          <Route path="/diary/:id" element={<DiaryEntry />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

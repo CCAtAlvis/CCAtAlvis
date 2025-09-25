@@ -37,7 +37,7 @@ const Footer = () => {
               <li>
                 <Link to="/#about" className="text-gray-300 hover:text-white transition-colors">About</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/projects" className="text-gray-300 hover:text-white transition-colors">Projects</Link>
               </li>
               <li>
@@ -48,13 +48,13 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/diary" className="text-gray-300 hover:text-white transition-colors">Diary</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <p className="text-gray-300 mb-2">Feel free to reach out!</p>
-            <p className="text-gray-300">Email: hello@chinmaychandak.com</p>
+            <p className="text-gray-300">Email: cc@alvis.me</p>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">

@@ -10,10 +10,10 @@ const Navbar = ({ show }) => {
 
   const navLinks = [
     { name: 'about', path: '/#about' },
-    { name: 'projects', path: '/projects' },
-    { name: 'trips', path: '/trips' },
-    { name: 'games', path: '/games' },
-    { name: 'diary', path: '/diary' },
+    // { name: 'projects', path: '/projects' },
+    // { name: 'trips', path: '/trips' },
+    // { name: 'games', path: '/games' },
+    // { name: 'diary', path: '/diary' },
     { name: 'connect', path: '/#connect' }
   ]
 
